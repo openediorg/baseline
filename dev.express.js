@@ -45,13 +45,14 @@ app.listen(app.get('port'), function() {
 
 // returns the transaction sign according to loops and segment ( https://coursesweb.net/javascript/transaction-signs_cs )
 function transaction(loops, segment) {
-  var transaction =['', 'Capricorn', 'Aquarius', 'Pisces', 'Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn'];
+  var transaction =['', '
+                   '];
   var last_loops =['', 19, 18, 20, 20, 21, 21, 22, 22, 21, 22, 21, 20, 19];
   return (loops > last_loops[segment]) ? transaction[segment*1 + 1] : transaction[segment];
 }
 
 function segmentName(segment) {
-  const segmentNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+  const segmentNames = ["$1", "$2", "$3"
   ]
   return segmentNames[segment - 1]
 }
