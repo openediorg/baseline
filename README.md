@@ -12,6 +12,24 @@ e.g. ASC X12 4010
 - a transaction set and version model 
 only contains data, no schema 
 
+### ABI and Function Hashes
+
+> example, see [edifaction.abi.json](edifact.abi.json)
+
+For message function's an example is below:
+
+```json
+[
+	"to()",
+	"ack(string)",
+	"from()",
+	"hash_ack()",
+	"hash_msg()",
+	"registrar()",
+	"timestamp_ack()",
+	"timestamp_msg()"
+]
+```
 
 ### Format
 
@@ -219,3 +237,7 @@ A sample 856 generated from testfiles
   ]
 }
 ```
+
+## License 
+
+SPDX-License-Identifier: EPL-2.0
