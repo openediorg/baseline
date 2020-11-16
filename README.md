@@ -12,7 +12,6 @@ e.g. ASC X12 4010
 - a transaction set and version model 
 only contains data, no schema 
 
-
 ### Format
 
 Each level in the hierarchy has two properties:
@@ -58,9 +57,9 @@ The following ASC X12 headers are interpreted to and from headers in the hierarc
 - GS: FunctionalGroup level
 - ST: Transaction level
 
-### Sample JS EDI Model
+### Example
 
-A sample 856 generated from testfiles
+X12 4010 856 generated from testfiles in `libinterchange`
 
 ```json
 {
