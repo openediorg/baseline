@@ -1,0 +1,8 @@
+{
+    "elementDelimiter": "string",
+    "endOfLine": "string",
+    "format": "boolean",
+    "segmentTerminator": "string",
+    "subElementDelimiter": "string",
+    "repetitionDelimiter": "string"
+}
