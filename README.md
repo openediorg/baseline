@@ -12,6 +12,7 @@ e.g. ASC X12 4010
 - a transaction set and version model 
 only contains data, no schema 
 
+
 ### ABI and Function Hashes
 
 > example, see [edifaction.abi.json](edifact.abi.json)
@@ -30,6 +31,7 @@ For message function's an example is below:
 	"timestamp_msg()"
 ]
 ```
+
 
 ### Format
 
@@ -76,9 +78,9 @@ The following ASC X12 headers are interpreted to and from headers in the hierarc
 - GS: FunctionalGroup level
 - ST: Transaction level
 
-### Sample JS EDI Model
+### Example
 
-A sample 856 generated from testfiles
+X12 4010 856 generated from testfiles in `libinterchange`
 
 ```json
 {
@@ -241,3 +243,4 @@ A sample 856 generated from testfiles
 ## License 
 
 SPDX-License-Identifier: EPL-2.0
+
